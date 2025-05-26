@@ -1,0 +1,1 @@
+Uma aplicação web para gerenciamento de tarefas em equipe, com quadros, listas e cartões. Cada usuário pode criar quadros (projetos), adicionar membros e organizar as tarefas em colunas como "A Fazer", "Em Andamento" e "Concluído".
