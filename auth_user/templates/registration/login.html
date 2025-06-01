@@ -14,7 +14,8 @@
             <p>Gerenciamento de tarefas em equipe</p>
         </div>
         
-        <form>
+        <form  action="{% url 'login' %}" method="post">
+            {% csrf_token %}
             <div class="form-group">
                 <label for="username">Nome de usuário</label>
                 <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
